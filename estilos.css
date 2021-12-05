@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body{
+    font-family: "Roboto", sans-serif ;
+    font-weight: 400;
+    color: rgb(58, 58, 58);
+    height: 100%;
+    
+
+}
+
+
+
+/*--------------------- Header ---------------------*/
+.header{ 
+    background: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    
+}
+
+.headerLogo{
+    position:relative ;
+    height: 113px;
+    width: 200;
+    
+}
+
+.header nav ul li{
+    display: inline;
+    color: white;
+    text-decoration-style: none;
+    align-content: flex-end;
+}
+
+.miNavbar{
+    background-color: #FFAB00;
+    text-decoration: none;
+}
+
+li{
+    margin-right: 50px;
+    list-style-type: none;
+}
+
+.nav-item a:hover{
+    color: white;
+
+}
+
+.navColor1{
+    color:black
+}
+
+
+
+
+
+
+/* .header nav ul li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 25px;
+    position: relative;
+    align-content:inherit;
+    left: 50%;   
+    bottom: 50px; 
+} */
+
+
+
+
+
+
+/*--------------------- Header ---------------------*/
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* Primera Descripción */
+.primeraDescripcion{
+    background-image: url(../GTAV_website/Images/imagenprincipal.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 500px;
+    padding-top: 150px;
+    padding: 0px 50px 5px 25px;
+    
+    /* background-image: url(../GTAV_website/Images/imagenprincipal.jpg);
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: 1366px 520px; */
+    /* height: 500px;
+    width: 100%;
+    margin: 0 0 0 0 ;
+    padding-top: 150px;
+    padding: 0px 50px 5px 25px; */  
+}
+
+.losSantos{
+    color: white;
+    padding-top: 5%;
+}
+
+.texto1{
+    
+    color: white;
+}
+
+
+/*H1*/
+h1 {
+    font-weight: 900;
+    color: black;
+}
+
+
+
+
+
+
+/* VIDEO TRAILER */
+
+
+
+/*ESTILO DE BOTONES*/
+button {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    line-height: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    background-color: #FFAB00;
+    box-shadow: rgba(0, 0, 0, 0.26) 1px 8px 14px 0px;
+    display: inline-block;
+    -webkit-box-shadow: 1px 8px 14px 0px rgba(0,0,0,0.26); 
+    box-shadow: 1px 8px 14px 0px rgba(0,0,0,0.26);
+}
+
+
+
+.fotoAsalto{
+    position: relative;
+    left: 20;
+    
+    
+}
+
+/* FRANKLIN MICHAEL Y TREVOR*/
+
+
+
+/* FOOTER */
+footer{
+    background-color:black ;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    height: 190px; 
+}
+.iconos{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 10px;
+}
+
+
+
+
+
+
+/* BIOGRAFIA PERSONAJES*/
+.bioMichael{
+    background-image: url(./Images/michaelbio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 680px;
+    padding-top: 5%;
+    padding-left: 5%;
+    
+}
+
+
+
+.videoMichael{
+    padding-top: 2%;
+}
+
+.bioFranklin{
+    background-image: url(./Images/franklinbio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 680px;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.videoFranklin{
+    padding-top: 2%;
+}
+
+.bioTrevor{
+    background-image: url(./Images/trevorbio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 680px;
+    padding-top: 5%;
+    padding-left: 5%;
+    
+}
+
+.videoTrevor{
+    padding-top: 2%;
+}
+
+.personajesPortada{
+    background-size:cover;
+    width: 100%;
+}
+
+.descripcionPersonajes{
+    align-content: center;
+}
+
+
+/*Comprar*/
+.comprar{
+    background-image: url(./Images/comprarfoto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 680px;
+    color: white;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.juega{
+    color: white;
+    padding-bottom: 20px;
+}
+
+.textoJuega{
+    padding-bottom: 20px;
+}
+
+.imagenHistoria{
+    background-image: url(../GTAV_website/Images/historiaportada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+
+}
+
+
+/* HISTORIA */
+.aside1{
+    display: flex;
+    align-items:flex-end;
+    justify-content: end;
+}
+
+
+/*--------------------- Contactanos ---------------------*/
+.imagenContactanos{
+    display: flex;
+justify-content: flex-start; 
+}
+
+.formulario1{
+    flex: 70%;
+}
+
+
+
+
+
+
+
+/*--------------------- Contactanos ---------------------*/
