@@ -1,124 +1,128 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* BODY */
-body{
-    font-family: "Roboto", sans-serif ;
+body {
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     color: rgb(58, 58, 58);
     height: 100%;
-    
+
 
 }
 
 
 
 /*--------------------- Header ---------------------*/
-.header{ 
+.header {
     background: #000000;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 20px;
     color: white;
-    
+
 }
 
-.headerLogo{
-    position:relative ;
+.headerLogo {
+    position: relative;
     height: 113px;
     width: 200;
-    
+
 }
 
-.header nav ul li{
+.header nav ul li {
     display: inline;
     color: white;
     text-decoration-style: none;
     align-content: flex-end;
 }
 
-.miNavbar{
+.miNavbar {
     background-color: #FFAB00;
     text-decoration: none;
 }
 
-li{
+li {
     margin-right: 50px;
     list-style-type: none;
 }
 
-.nav-item a:hover{
+.nav-item a:hover {
     color: white;
 
 }
 
-.navColor1{
-    color:black
+.navColor1 {
+    color: black
 }
 
-
-
-
-
-
-/* .header nav ul li {
-    display: inline;
-    list-style-type: none;
-    margin-right: 25px;
-    position: relative;
-    align-content:inherit;
-    left: 50%;   
-    bottom: 50px; 
-} */
-
-
-
-
-
-
-/*--------------------- Header ---------------------*/
-
-a{
+a {
     color: white;
     text-decoration: none;
 }
 
+/*--------------------- Header ---------------------*/
 
 
-/* Primera Descripción */
-.primeraDescripcion{
-    background-image: url(../GTAV_website/Images/imagenprincipal.jpg);
+/* --------Primera Descripción-------*/
+.primeraDescripcion {
+    background-image: url(./Images/imagenprincipal.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     width: 100%;
-    height: 500px;
-    padding-top: 150px;
+    height: 520px;
     padding: 0px 50px 5px 25px;
-    
-    /* background-image: url(../GTAV_website/Images/imagenprincipal.jpg);
-    color: white;
-    background-position: center;
-    background-repeat: no-repeat;
-    /* background-size: 1366px 520px; */
-    /* height: 500px;
-    width: 100%;
-    margin: 0 0 0 0 ;
-    padding-top: 150px;
-    padding: 0px 50px 5px 25px; */  
 }
 
-.losSantos{
+.losSantos {
     color: white;
     padding-top: 5%;
 }
 
-.texto1{
-    
+.texto1 {
+
     color: white;
 }
+
+/* --------Primera Descripción-------*/
+
+/* --------Personajes Index-------*/
+.flexPersonajes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.flexFranklin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexMichael {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexTrevor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topButtons {
+    margin-top: 25px;
+}
+
+/* --------Personajes Index-------*/
 
 
 /*H1*/
@@ -127,16 +131,40 @@ h1 {
     color: black;
 }
 
+/*H1*/
 
 
+/* ------VIDEO TRAILER ------*/
+.paraPs5 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
 
+.videoLinkeado {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
 
+/* ----Adquierelo Index */
+.contenedorAdquierelo {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
 
-/* VIDEO TRAILER */
+.contenidoAdquierelo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+/* ----Adquierelo Index */
 
 
 /*ESTILO DE BOTONES*/
+
 button {
     color: rgb(0, 0, 0);
     font-size: 18px;
@@ -148,102 +176,135 @@ button {
     background-color: #FFAB00;
     box-shadow: rgba(0, 0, 0, 0.26) 1px 8px 14px 0px;
     display: inline-block;
-    -webkit-box-shadow: 1px 8px 14px 0px rgba(0,0,0,0.26); 
-    box-shadow: 1px 8px 14px 0px rgba(0,0,0,0.26);
+    -webkit-box-shadow: 1px 8px 14px 0px rgba(0, 0, 0, 0.26);
+    box-shadow: 1px 8px 14px 0px rgba(0, 0, 0, 0.26);
 }
 
-
-
-.fotoAsalto{
-    position: relative;
-    left: 20;
-    
-    
-}
-
-/* FRANKLIN MICHAEL Y TREVOR*/
-
-
+/*----ESTILO DE BOTONES----*/
 
 /* FOOTER */
-footer{
-    background-color:black ;
+footer {
+    background-color: black;
     color: white;
     text-align: center;
     padding-bottom: 50px;
     padding-top: 50px;
-    height: 190px; 
+    height: 190px;
 }
-.iconos{
+
+.iconos {
     display: flex;
-    justify-content:space-evenly;
-    margin: 10px;
+    justify-content: center;
 }
 
+.iconos a {
+    padding: 10px 20px 0 20px;
+}
 
-
+/* FOOTER */
 
 
 
 /* BIOGRAFIA PERSONAJES*/
-.bioMichael{
+.personajesPortada {
+    background-size: cover;
+    width: 100%;
+}
+
+.descripcionPersonajes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.alignP {
+    text-align: center;
+}
+
+
+.bioMichael {
     background-image: url(./Images/michaelbio.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    height: 680px;
-    padding-top: 5%;
+    height: 780px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding-left: 5%;
-    
 }
 
 
 
-.videoMichael{
-    padding-top: 2%;
-}
 
-.bioFranklin{
+
+.bioFranklin {
     background-image: url(./Images/franklinbio.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    height: 680px;
-    padding-top: 5%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding-left: 5%;
 }
 
-.videoFranklin{
-    padding-top: 2%;
-}
 
-.bioTrevor{
+.bioTrevor {
     background-image: url(./Images/trevorbio.png);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    height: 680px;
-    padding-top: 5%;
+    height: 780px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding-left: 5%;
-    
 }
 
-.videoTrevor{
-    padding-top: 2%;
-}
+/* BIOGRAFIA PERSONAJES*/
 
-.personajesPortada{
-    background-size:cover;
+
+
+/*------ HISTORIA-----*/
+.historiaPortada {
     width: 100%;
 }
 
-.descripcionPersonajes{
+.gridLosSantos {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.gridContenido {
+    display: grid;
+    justify-content: space-evenly;
     align-content: center;
 }
 
+.gridContenido2 {
+    display: grid;
+    justify-content: space-evenly;
+    justify-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 
-/*Comprar*/
-.comprar{
+table {
+    display: grid;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+/*------ HISTORIA-----*/
+
+
+/*--------Comprar--------*/
+.comprar {
     background-image: url(./Images/comprarfoto.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -253,44 +314,40 @@ footer{
     padding-left: 5%;
 }
 
-.juega{
+.juega {
     color: white;
     padding-bottom: 20px;
 }
 
-.textoJuega{
+.textoJuega {
     padding-bottom: 20px;
 }
 
-.imagenHistoria{
-    background-image: url(../GTAV_website/Images/historiaportada.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 500px;
+/*--------Comprar--------*/
 
-}
-
-
-/* HISTORIA */
-.aside1{
-    display: flex;
-    align-items:flex-end;
-    justify-content: end;
-}
 
 
 /*--------------------- Contactanos ---------------------*/
-.imagenContactanos{
+.imagenContactanos {
     display: flex;
-justify-content: flex-start; 
+    justify-content: flex-start;
 }
 
-.formulario1{
-    flex: 70%;
+.flexContacto {
+    display: flex;
+
 }
 
+.contenidoContacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 200px;
+}
 
+.tituloBold {
+    font-weight: bold;
+}
 
 
 
