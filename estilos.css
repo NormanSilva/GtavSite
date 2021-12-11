@@ -328,27 +328,33 @@ table {
 
 
 /*--------------------- Contactanos ---------------------*/
-.imagenContactanos {
-    display: flex;
-    justify-content: flex-start;
+
+.gridContacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: start;
+
 }
-
-.flexContacto {
-    display: flex;
-
-}
-
 .contenidoContacto {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 200px;
+    margin-bottom: 300px;
+}
+
+.form-floating{
+    padding-top: 25px;
 }
 
 .tituloBold {
     font-weight: bold;
 }
 
+.buttonEnviar{
+    margin-top: 25px;
+    width: 100px;
+}
 
 
 

@@ -56,7 +56,7 @@
     </nav>
   </header>
 
-  <div class="flexContacto">
+  <!-- <div class="flexContacto">
     <div class="imagenContactanos">
       <img src="../Images/contactanosfoto.jpg" alt="contactanos">
     </div>
@@ -76,13 +76,33 @@
         <input type="submit" value="Enviar">
       </form>
     </div>
+  </div> -->
+
+  <div class="gridContacto">
+    <div>
+      <img src="../Images/contactanosfoto.jpg" alt="contactanos">
+    </div>
+
+    <div class="contenidoContacto">
+      <h2 class="tituloBold">Para cualquier pregunta o sugerencia, envíanos <br>
+        un mensaje y te responderemos. Gracias!
+      </h2>
+      <div>
+        <label for="formControlInput" class="form-label">Nombre y Apellido </label>
+        <input type="text" class="form-control" id="formControlInput">
+      </div>
+      <div>
+        <label for="formControlInput" class="form-label">Correo</label>
+        <input type="email" class="form-control" id="formControlInput" placeholder="tucorreo@gmail.com">
+      </div>
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 100px"></textarea>
+        <label for="floatingTextarea">Deja tu comentario</label>
+      </div>
+     
+       <button type="submit" value="Enviar" class="buttonEnviar">Enviar</button>
+    </div>
   </div>
-
-
-
-
-
-
 
   <!-- FOOTER -->
   <footer>
