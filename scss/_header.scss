@@ -1,0 +1,38 @@
+.header {
+    background: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+
+    .headerLogo {
+        position: relative;
+        height: 113px;
+        width: 200;
+    }
+   
+    nav ul li{ 
+        display: inline;
+        color: white;
+        text-decoration-style: none;
+        align-content: flex-end;
+
+        .nav-item a:hover {
+            color: white;
+        }
+
+        li{
+            margin-right: 50px;
+            list-style-type: none;
+
+            a {
+                color: white;
+                text-decoration: none;
+
+                .navColor1 {
+                    color: black
+                }
+            }
+        }
+    } 
+}

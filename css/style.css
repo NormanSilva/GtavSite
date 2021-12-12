@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* BODY */
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #3a3a3a;
+  height: 100%; }
+
+.header {
+  background: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: white; }
+  .header .headerLogo {
+    position: relative;
+    height: 113px;
+    width: 200; }
+  .header nav ul li {
+    display: inline;
+    color: white;
+    text-decoration-style: none;
+    align-content: flex-end; }
+    .header nav ul li .nav-item a:hover {
+      color: white; }
+    .header nav ul li li {
+      margin-right: 50px;
+      list-style-type: none; }
+      .header nav ul li li a {
+        color: white;
+        text-decoration: none; }
+        .header nav ul li li a .navColor1 {
+          color: black; }
+
+/*Comentario al css*/
