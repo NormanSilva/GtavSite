@@ -1,0 +1,53 @@
+.personajesPortada {
+    background-size: cover;
+    width: 100%;
+}
+
+.descripcionPersonajes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.alignP {
+    text-align: center;
+}
+
+.bioMichael {
+    background-image: url(./Images/michaelbio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 780px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+}
+
+.bioFranklin {
+    background-image: url(./Images/franklinbio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+}
+
+.bioTrevor {
+    background-image: url(./Images/trevorbio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 780px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+}

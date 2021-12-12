@@ -4,12 +4,29 @@
     box-sizing: border-box;
 }
 
-/* BODY */
+
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     color: rgb(58, 58, 58);
     height: 100%;
+}
+h1 {
+    font-weight: 900;
+    color: black;
+}
 
-
+button {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    line-height: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    background-color: #FFAB00;
+    box-shadow: rgba(0, 0, 0, 0.26) 1px 8px 14px 0px;
+    display: inline-block;
+    -webkit-box-shadow: 1px 8px 14px 0px rgba(0, 0, 0, 0.26);
+    box-shadow: 1px 8px 14px 0px rgba(0, 0, 0, 0.26);
 }

@@ -1,0 +1,32 @@
+.gridContacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: start;
+
+    .contenidoContacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 300px;
+
+        .tituloBold {
+            font-weight: bold;
+        }
+    }
+
+    .form-floating{
+        padding-top: 25px;
+    }
+
+    .buttonEnviar{
+        margin-top: 25px;
+        width: 100px;
+    }
+}
+
+
+
+
+
+

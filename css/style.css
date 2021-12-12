@@ -1,15 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
-/* BODY */
-body {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  color: #3a3a3a;
-  height: 100%; }
-
+/*Comentario al css*/
 .header {
   background: #000000;
   font-family: 'Montserrat', sans-serif;
@@ -36,4 +25,179 @@ body {
         .header nav ul li li a .navColor1 {
           color: black; }
 
-/*Comentario al css*/
+.primeraDescripcion {
+  background-image: url(./Images/imagenprincipal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 520px;
+  padding: 0px 50px 5px 25px; }
+
+.losSantos {
+  color: white;
+  padding-top: 5%; }
+
+.texto1 {
+  color: white; }
+
+.flexPersonajes {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 80px; }
+
+.flexFranklin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.flexMichael {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.flexTrevor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.topButtons {
+  margin-top: 25px; }
+
+.paraPs5 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px; }
+
+.videoLinkeado {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px; }
+
+.contenedorAdquierelo {
+  display: grid;
+  grid-template-columns: 2fr 1fr; }
+  .contenedorAdquierelo .contenidoAdquierelo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+
+.historiaPortada {
+  width: 100%; }
+
+.gridLosSantos {
+  display: grid;
+  grid-template-columns: 2fr 1fr; }
+  .gridLosSantos .gridContenido {
+    display: grid;
+    justify-content: space-evenly;
+    align-content: center; }
+  .gridLosSantos .gridContenido2 {
+    display: grid;
+    justify-content: space-evenly;
+    justify-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%; }
+    .gridLosSantos .gridContenido2 table {
+      display: grid;
+      justify-content: space-evenly;
+      align-content: center; }
+
+.personajesPortada {
+  background-size: cover;
+  width: 100%; }
+
+.descripcionPersonajes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  margin-bottom: 2%; }
+
+.alignP {
+  text-align: center; }
+
+.bioMichael {
+  background-image: url(./Images/michaelbio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 780px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5%; }
+
+.bioFranklin {
+  background-image: url(./Images/franklinbio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5%; }
+
+.bioTrevor {
+  background-image: url(./Images/trevorbio.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 780px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5%; }
+
+.comprar {
+  background-image: url(./Images/comprarfoto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 680px;
+  color: white;
+  padding-top: 5%;
+  padding-left: 5%; }
+  .comprar .juega {
+    color: white;
+    padding-bottom: 20px; }
+  .comprar .textoJuega {
+    padding-bottom: 20px; }
+
+.gridContacto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: start; }
+  .gridContacto .contenidoContacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 300px; }
+    .gridContacto .contenidoContacto .tituloBold {
+      font-weight: bold; }
+  .gridContacto .form-floating {
+    padding-top: 25px; }
+  .gridContacto .buttonEnviar {
+    margin-top: 25px;
+    width: 100px; }
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  height: 190px; }
+
+.iconos {
+  display: flex;
+  justify-content: center; }
+
+.iconos a {
+  padding: 10px 20px 0 20px; }
