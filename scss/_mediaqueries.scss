@@ -1,0 +1,1294 @@
+@media only screen and (max-width: 1200px) {
+
+    /* personajes index */
+    .flexPersonajes {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+    
+    .flexFranklin {
+        /* width: 201px; */
+        /* height: 374px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sizeFranklin{
+        width: 289.77px;
+        height: 540.58px;
+    }
+    
+    .flexMichael {
+        /* width: 201px;
+        height: 374px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sizeMichael{
+        width: 289.77px;
+        height: 540.58px;
+    }
+    
+    .flexTrevor {
+        /* width: 201px;
+        height: 374px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sizeTrevor{
+        width: 289.77px;
+        height: 540.58px;
+    }
+
+    .topButtons {
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+
+
+
+    /* ------VIDEO TRAILER index ------*/
+    .paraPs5 {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        
+    }
+
+    .videoLinkeado {
+        width: 560;
+        height: 315;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+
+    .sizeVideo{
+        width: 650px;
+        height: 366px; 
+    }
+    
+    /*----Adquierelo index----*/
+    .sizeAdquierelo{
+        width: 589px;
+        height: 367px;
+    }
+
+    .contenedorAdquierelo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .contenidoAdquierelo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+/* ------------------HISTORIA---------------------------------------------------- */
+    .historiaPortada {
+        width: 100%;
+    }
+
+    .gridLosSantos {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+
+    .gridContenido {
+        display: grid;
+        justify-content: space-evenly;
+        align-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .sizeMotero{
+        width: 683px;
+        height: 374px;
+    }
+
+    .sizeSaga{
+        width: 800px;
+        height:450px;
+    }
+
+    .gridContenido2 {
+        display: grid;
+        justify-content: space-evenly;
+        justify-items: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    table {
+        display: grid;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+
+
+    /* ------------------PERSONAJES---------------------------------------------------- */
+    .personajesPortada {
+        width: 100%;
+    }
+
+    .descripcionPersonajes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .alignP {
+        text-align: center;
+    }
+
+
+    .bioMichael {
+        background-image: url(./Images/michaelbio.jpg);
+        background-repeat: no-repeat;
+        color: white;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 5%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+
+    .bioFranklin {
+        background-image: url(./Images/franklinbio.jpg);
+        background-repeat: no-repeat;
+        color: white;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 5%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+
+    .bioTrevor {
+        background-image: url(./Images/trevorbio.png);
+        background-repeat: no-repeat;
+        color: white;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 5%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+/* ------------------CONTACTANOS---------------------------------------------------- */
+
+    .gridContacto{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        align-items: center;
+        justify-items: start;
+
+    }
+    .contenidoContacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 15%;
+        margin-top: 15%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .form-label{
+        padding-top: 2%;
+    }
+
+    .tituloBold {
+        font-weight: bold;
+    }
+
+    .buttonEnviar{
+        margin-top: 25px;
+        width: 100px;
+    }
+    .imagenContacto{
+        width: 682px;
+        height: 100%;
+    }
+ }
+
+
+ @media only screen and (max-width: 992px){
+
+    /* personajes index */
+    .flexPersonajes {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+
+    .flexFranklin {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sizeFranklin{
+        width: 241px;
+        height: 449px;
+    }
+
+    .flexMichael {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sizeMichael{
+        width: 241px;
+        height: 449px;
+    }
+
+    .flexTrevor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sizeTrevor{
+        width: 241px;
+        height: 449px;
+    }
+
+    .topButtons {
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+
+
+
+    /* ------VIDEO TRAILER index ------*/
+    .paraPs5 {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        
+    }
+
+    .videoLinkeado {
+        width: 560;
+        height: 315;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+
+    .sizeVideo{
+        width: 580px;
+        height: 326px; 
+    }
+
+    /*----Adquierelo index----*/
+    .sizeAdquierelo{
+        width: 500px;
+        height: 312px;
+    }
+
+    .contenedorAdquierelo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contenidoAdquierelo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    /* ------------------HISTORIA---------------------------------------------------- */
+    .historiaPortada {
+        width: 100%;
+    }
+
+    .gridLosSantos {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+
+    .gridContenido {
+        display: grid;
+        justify-content: space-evenly;
+        align-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .sizeMotero{
+        width: 558px;
+        height: 315px;
+    }
+
+    .sizeSaga{
+        width: 558px;
+        height: 315px;
+    }
+    
+
+    .gridContenido2 {
+        display: grid;
+        justify-content: space-evenly;
+        justify-items: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    table {
+        display: grid;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+
+    /* ------------------PERSONAJES---------------------------------------------------- */
+    .personajesPortada {
+            width: 100%;
+    }
+    
+    .descripcionPersonajes {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 2%;
+            margin-bottom: 2%;
+    }
+    
+    .alignP {
+            text-align: center;
+    }
+    
+    
+    .bioMichael {
+            background-image: url(./Images/michaelbio.jpg);
+            background-repeat: no-repeat;
+            color: white;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 5%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+    }
+    
+    
+    .bioFranklin {
+            background-image: url(./Images/franklinbio.jpg);
+            background-repeat: no-repeat;
+            color: white;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 5%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+    }
+    
+    
+    .bioTrevor {
+            background-image: url(./Images/trevorbio.png);
+            background-repeat: no-repeat;
+            color: white;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 5%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+    }
+
+/* ------------------CONTACTANOS---------------------------------------------------- */
+
+    .gridContacto{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        align-items: center;
+        justify-items: start;
+
+    }
+    .contenidoContacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 15%;
+        margin-top: 15%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .form-label{
+        padding-top: 2%;
+    }
+
+    .tituloBold {
+        font-weight: bold;
+    }
+
+    .buttonEnviar{
+        margin-top: 25px;
+        width: 100px;
+    }
+    .imagenContacto{
+        width: 583px;
+        height: 100%;
+    }
+ }
+
+ @media only screen and (max-width: 850px){
+    
+    .gridContacto{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .contenidoContacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 15%;
+        margin-top: 15%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .form-label{
+        padding-top: 2%;
+    }
+
+    .tituloBold {
+        font-weight: bold;
+    }
+
+    .buttonEnviar{
+        margin-top: 25px;
+        width: 100px;
+    }
+    .imagenContacto{
+        width: 100%;
+        height: 100%;
+    }
+ }
+ 
+ 
+ @media only screen and (max-width: 768px){
+
+    /* Descripción principal index */
+
+    .primeraDescripcion {
+        background-color: white;
+        background-image: none;
+        width: 100%;
+        height: 300px;
+        padding: 0px 50px 0px 25px;
+    }    
+
+    .losSantos {
+        color: black;
+        padding-top: 5%;
+    }
+    
+    .texto1 {
+        color: black;
+    }
+
+
+
+    /* personajes index */
+    .flexPersonajes {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 5px;
+        margin-bottom: 80px;
+    }
+
+    .flexFranklin {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sizeFranklin{
+        width: 214px;
+        height: 397px;
+    }
+
+    .flexMichael {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sizeMichael{
+        width: 214px;
+        height: 397px;
+    }
+
+    .flexTrevor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sizeTrevor{
+        width: 214px;
+        height: 397px;
+    }
+
+    .topButtons {
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+
+
+
+    /* ------VIDEO TRAILER index ------*/
+    .paraPs5 {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        
+    }
+
+    .videoLinkeado {
+        width: 560;
+        height: 315;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+
+    .sizeVideo{
+        width: 580px;
+        height: 326px; 
+    }
+
+    /*----Adquierelo index----*/
+    .sizeAdquierelo{
+        width: 431px;
+        height: 269px;
+    }
+
+    .contenedorAdquierelo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contenidoAdquierelo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+
+    /* ------------------HISTORIA---------------------------------------------------- */
+    .historiaPortada {
+        width: 100%;
+    }
+
+    .gridLosSantos {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+
+    .gridContenido {
+        display: grid;
+        justify-content: space-evenly;
+        align-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+
+    .sizeMotero{
+        width: 431px;
+        height: 269px;
+    }
+
+    .sizeSaga{
+        width: 431px;
+        height: 269px;
+        
+    }
+    
+
+    .gridContenido2 {
+        display: grid;
+        justify-content: space-evenly;
+        justify-items: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    table {
+        display: grid;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+
+
+
+/* ------------------PERSONAJES---------------------------------------------------- */
+
+    .personajesPortada {
+        background-size: cover;
+        width: 100%;
+    }
+
+    .descripcionPersonajes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .alignP {
+        text-align: center;
+    }
+
+
+    
+    .sizeVideoPersonajes{
+        width: 580px;
+        height: 326px;
+    }
+
+   
+    h2{
+        font-weight: bold;
+    }
+
+    .colorMichaeltext{
+        color: black;
+    }
+
+    .bioMichael {
+        background-image: none;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 0px 0px 35px
+    }
+
+    .bioFranklin {
+        background-image: none;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 0px 0px 35px
+    }
+
+    .bioTrevor {
+        background-image: none;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 0px 0px 35px
+    }
+ }
+
+
+ @media only screen and (max-width: 640px){
+     /* Descripción principal index */
+
+    .primeraDescripcion {
+        background-color: white;
+        background-image: none;
+        width: 100%;
+        height: 300px;
+        padding: 0px 50px 0px 25px;
+    }    
+
+    .losSantos {
+        color: black;
+        padding-top: 5%;
+    }
+    
+    .texto1 {
+        color: black;
+    }
+
+
+
+    /* personajes index */
+    .flexPersonajes {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 5px;
+        margin-bottom: 80px;
+    }
+
+    .flexFranklin {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sizeFranklin{
+        width: 158px;
+        height: 291px;
+    }
+
+    .flexMichael {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sizeMichael{
+        width: 158px;
+        height: 291px;
+    }
+
+    .flexTrevor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sizeTrevor{
+        width: 158px;
+        height: 291px;
+    }
+
+    .topButtons {
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+
+
+
+    /* ------VIDEO TRAILER index ------*/
+    .paraPs5 {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        
+    }
+
+    .videoLinkeado {
+        width: 560;
+        height: 315;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+
+    .sizeVideo{
+        width: 560px;
+        height: 315; 
+    }
+
+    /*----Adquierelo index----*/
+    .sizeAdquierelo{
+        width: 355px;
+        height: 222px;
+    }
+
+    .contenedorAdquierelo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contenidoAdquierelo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+    /* ------------------HISTORIA---------------------------------------------------- */
+    .historiaPortada {
+        width: 100%;
+    }
+
+    .gridLosSantos {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+
+    .gridContenido {
+        display: grid;
+        justify-content: space-evenly;
+        align-content: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 20px;
+    }
+
+    .sizeMotero{
+        width: 100%;
+        height: 100%;
+    }
+
+    .sizeSaga{
+        width: 100%;
+        height: 100%;
+        
+    }
+
+
+    .gridContenido2 {
+        display: grid;
+        justify-content: space-evenly;
+        justify-items: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    table {
+        display: grid;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+
+
+    /* ------------------PERSONAJES---------------------------------------------------- */
+
+    .personajesPortada {
+        background-size: cover;
+        width: 100%;
+    }
+
+    .descripcionPersonajes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .alignP {
+        text-align: center;
+    }
+
+
+
+    .sizeVideoPersonajes{
+        width: 560px;
+        height: 315px;
+    }
+
+
+    h2{
+        font-weight: bold;
+    }
+
+    .colorMichaeltext{
+        color: black;
+    }
+
+    .bioMichael {
+        background-image: none;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 20px 0px 35px
+    }
+
+    .bioFranklin {
+        background-image: none;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 20px 0px 35px
+    }
+
+    .bioTrevor {
+        background-image: none;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px px 0px 35px
+    }
+ }
+
+ @media only screen and (max-width: 595px){
+    .sizeVideoPersonajes{
+    width: 100%;
+    height: 315px;
+    }
+}
+
+
+
+ @media only screen and (max-width: 545px){
+
+    /* Descripción principal index */
+
+    .primeraDescripcion {
+        background-color: white;
+        background-image: none;
+        width: 100%;
+        height: 300px;
+        padding: 0px 50px 0px 25px;
+    }    
+
+    .losSantos {
+        color: black;
+        padding-top: 5%;
+    }
+
+    .texto1 {
+        color: black;
+    }
+
+
+
+    /* personajes index */
+    .flexPersonajes {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 5px;
+        margin-bottom: 30px;
+    }
+
+    .flexFranklin {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sizeFranklin{
+        width: 158px;
+        height: 291px;
+    }
+
+    .flexMichael {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sizeMichael{
+        width: 158px;
+        height: 291px;
+    }
+
+    .flexTrevor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sizeTrevor{
+        width: 158px;
+        height: 291px;
+    }
+
+    .topButtons {
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+
+
+
+    /* ------VIDEO TRAILER index ------*/
+    .paraPs5 {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        
+    }
+
+    .videoLinkeado {
+        width: 560;
+        height: 315;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+
+    .sizeVideo{
+        width: 100%;
+        height: 315px; 
+    }
+
+    /*----Adquierelo index----*/
+    .sizeAdquierelo{
+        /* width: 545px;
+        height: 340px; */
+        padding-top: 30px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .contenedorAdquierelo {
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+
+    .contenidoAdquierelo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+    /* ------------------HISTORIA---------------------------------------------------- */
+    .historiaPortada {
+        width: 100%;
+    }
+
+    .gridLosSantos {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+
+    .gridContenido {
+        display: grid;
+        justify-content: space-evenly;
+        align-content: center;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 20px;
+    }
+
+    .sizeMotero{
+        width: 100%;
+        height: 100%;
+    }
+
+    .sizeSaga{
+        width: 100%;
+        height: 100%;
+        
+    }
+
+
+    .gridContenido2 {
+        display: grid;
+        justify-content: space-evenly;
+        justify-items: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    table {
+        display: grid;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+ }
+
+ @media only screen and (max-width: 470px){
+
+    /* Descripción principal index */
+
+    .primeraDescripcion {
+        background-color: white;
+        background-image: none;
+        width: 100%;
+        height: 100%;
+        padding: 0px 50px 20px 25px;
+    }    
+
+    .losSantos {
+        color: black;
+        padding-top: 5%;
+    }
+
+    .texto1 {
+        color: black;
+    }
+
+
+
+    /* personajes index */
+    .flexPersonajes {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 5px;
+        margin-bottom: 30px;
+    }
+
+    .flexFranklin {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sizeFranklin{
+        width: 109px;
+        height: 213px;
+    }
+
+    .flexMichael {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sizeMichael{
+        width: 109px;
+        height: 213px;
+    }
+
+    .flexTrevor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sizeTrevor{
+        width: 109px;
+        height: 213px;
+    }
+
+    .topButtons {
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+
+
+
+    /* ------VIDEO TRAILER index ------*/
+    .paraPs5 {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+        text-align: center;
+        
+    }
+
+    .videoLinkeado {
+        width: 560;
+        height: 315;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+
+    .sizeVideo{
+        width: 100%;
+        height: 315px; 
+    }
+
+    /*----Adquierelo index----*/
+    .sizeAdquierelo{
+        /* width: 545px;
+        height: 340px; */
+        padding-top: 30px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .contenedorAdquierelo {
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+
+    .contenidoAdquierelo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+/* ------------------COMPRAR---------------------------------------------------- */
+
+    .comprar {
+        background-image: none;
+        color: black;
+        padding: 30px 20px 0 20px;
+    }
+
+    .juega {
+        color: black;
+        padding-bottom: 20px;
+    }
+
+    .buttonComprar{
+        margin-bottom: 20px;
+    }
+
+    .textoJuega {
+        padding-bottom: 20px;
+    }
+ }

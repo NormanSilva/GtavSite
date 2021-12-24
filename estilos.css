@@ -404,10 +404,6 @@ table {
 
 
 
-
-
-
-
 @media only screen and (max-width: 1200px) {
 
     /* personajes index */
@@ -549,8 +545,6 @@ table {
         justify-content: space-evenly;
         align-content: center;
     }
-
-
 
 
     /* ------------------PERSONAJES---------------------------------------------------- */
@@ -791,25 +785,25 @@ table {
     }
 
     /* ------------------PERSONAJES---------------------------------------------------- */
-        .personajesPortada {
+    .personajesPortada {
             width: 100%;
-        }
+    }
     
-        .descripcionPersonajes {
+    .descripcionPersonajes {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             margin-top: 2%;
             margin-bottom: 2%;
-        }
+    }
     
-        .alignP {
+    .alignP {
             text-align: center;
-        }
+    }
     
     
-        .bioMichael {
+    .bioMichael {
             background-image: url(./Images/michaelbio.jpg);
             background-repeat: no-repeat;
             color: white;
@@ -821,10 +815,10 @@ table {
             padding-left: 5%;
             padding-top: 50px;
             padding-bottom: 50px;
-        }
+    }
     
     
-        .bioFranklin {
+    .bioFranklin {
             background-image: url(./Images/franklinbio.jpg);
             background-repeat: no-repeat;
             color: white;
@@ -836,10 +830,10 @@ table {
             padding-left: 5%;
             padding-top: 50px;
             padding-bottom: 50px;
-        }
+    }
     
     
-        .bioTrevor {
+    .bioTrevor {
             background-image: url(./Images/trevorbio.png);
             background-repeat: no-repeat;
             color: white;
@@ -851,7 +845,7 @@ table {
             padding-left: 5%;
             padding-top: 50px;
             padding-bottom: 50px;
-        }
+    }
 
 /* ------------------CONTACTANOS---------------------------------------------------- */
 
@@ -926,9 +920,6 @@ table {
  }
  
  
-
-
-
  @media only screen and (max-width: 768px){
 
     /* Descripción principal index */
@@ -1156,41 +1147,8 @@ table {
         justify-content: center;
         padding: 20px 0px 0px 35px
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  }
+
 
  @media only screen and (max-width: 640px){
      /* Descripción principal index */
@@ -1417,11 +1375,6 @@ table {
         justify-content: center;
         padding: 20px px 0px 35px
     }
-
-
-
-
-
  }
 
  @media only screen and (max-width: 595px){
@@ -1599,11 +1552,6 @@ table {
         justify-content: space-evenly;
         align-content: center;
     }
-
-
-
-
-
  }
 
  @media only screen and (max-width: 470px){
@@ -1749,22 +1697,4 @@ table {
     .textoJuega {
         padding-bottom: 20px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  }
