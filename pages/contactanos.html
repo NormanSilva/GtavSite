@@ -56,33 +56,32 @@
     </nav>
   </header>
 
-  <div class="gridContacto">
-    <div>
-      <img src="../Images/contactanosfoto.jpg" alt="contactanos">
+    <div class="gridContacto">
+       <img src="../Images/contactanosfoto.jpg" alt="contactanos" class="imagenContacto">
+      
+      <div class="contenidoContacto">
+        <h2 class="tituloBold">Para cualquier pregunta o sugerencia, envíanos <br>
+          un mensaje y te responderemos. Gracias!
+        </h2>
+        <div>
+          <label for="formControlInput" class="form-label">Nombre y Apellido </label>
+          <input type="text" class="form-control" id="formControlInput">
+        </div>
+        <div>
+          <label for="formControlInput" class="form-label">Correo</label>
+          <input type="email" class="form-control" id="formControlInput">
+        </div>
+        <div>
+          <label for="formControlInput" class="form-label">Deja tu comentario</label>
+          <textarea class="form-control" id="floatingTextarea" style="height: 100px"></textarea>
+        </div>
+        <form action="" method="post">
+         <input type="submit" id="boton" value="Enviar"></input> 
+        </form>
+      </div>
     </div>
 
-    <div class="contenidoContacto">
-      <h2 class="tituloBold">Para cualquier pregunta o sugerencia, envíanos <br>
-        un mensaje y te responderemos. Gracias!
-      </h2>
-      <div>
-        <label for="formControlInput" class="form-label">Nombre y Apellido </label>
-        <input type="text" class="form-control" id="formControlInput">
-      </div>
-      <div>
-        <label for="formControlInput" class="form-label">Correo</label>
-        <input type="email" class="form-control" id="formControlInput" placeholder="tucorreo@gmail.com">
-      </div>
-      <div class="form-floating">
-        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 100px"></textarea>
-        <label for="floatingTextarea">Deja tu comentario</label>
-      </div>
-     
-       <button type="submit" value="Enviar" class="buttonEnviar">Enviar</button>
-    </div>
-  </div>
-
-  <!-- FOOTER -->
+<!-- FOOTER -->
   <footer>
     <div>
       <h2>¡Síguenos en las redes!</h2>
@@ -93,7 +92,11 @@
           alt="icono instagram"></a>
       <a href="https://www.youtube.com/c/RockstarGames"><img src="../Images/youtube.png" alt="icono youtube"></a>
     </div>
+
   </footer>
+
+
+    
 
 </body>
 

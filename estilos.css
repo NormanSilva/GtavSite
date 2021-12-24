@@ -181,6 +181,22 @@ h1 {
 
 
 /*ESTILO DE BOTONES*/
+input#boton{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    line-height: 18px;
+    padding: 10px;
+    margin-top: 5%;
+    width: 80px;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    background-color: #FFAB00;
+    box-shadow: rgba(0, 0, 0, 0.26) 1px 8px 14px 0px;
+    display: inline-block;
+    -webkit-box-shadow: 1px 8px 14px 0px rgba(0, 0, 0, 0.26);
+    box-shadow: 1px 8px 14px 0px rgba(0, 0, 0, 0.26);  
+}
 
 button {
     color: rgb(0, 0, 0);
@@ -255,9 +271,6 @@ footer {
 }
 
 
-
-
-
 .bioFranklin {
     background-image: url(./Images/franklinbio.jpg);
     background-repeat: no-repeat;
@@ -301,6 +314,16 @@ footer {
     display: grid;
     justify-content: space-evenly;
     align-content: center;
+}
+
+.sizeMotero{
+    width:745px;
+    height: 420px;
+}
+
+.sizeSaga{
+    width: 800px;
+    height:450px;
 }
 
 .gridContenido2 {
@@ -348,7 +371,7 @@ table {
 
 .gridContacto{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 3fr;
     align-items: center;
     justify-items: start;
 
@@ -357,11 +380,14 @@ table {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 300px;
+    margin-bottom: 15%;
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-.form-floating{
-    padding-top: 25px;
+.form-label{
+    padding-top: 2%;
 }
 
 .tituloBold {
@@ -373,10 +399,14 @@ table {
     width: 100px;
 }
 
-
-
-
 /*--------------------- Contactanos ---------------------*/
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 1200px) {
 
@@ -477,7 +507,152 @@ table {
         padding-right: 20px;
         text-align: center;
     }
+
+/* ------------------HISTORIA---------------------------------------------------- */
+    .historiaPortada {
+        width: 100%;
+    }
+
+    .gridLosSantos {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+
+    .gridContenido {
+        display: grid;
+        justify-content: space-evenly;
+        align-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .sizeMotero{
+        width: 683px;
+        height: 374px;
+    }
+
+    .sizeSaga{
+        width: 800px;
+        height:450px;
+    }
+
+    .gridContenido2 {
+        display: grid;
+        justify-content: space-evenly;
+        justify-items: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    table {
+        display: grid;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+
+
+
+
+    /* ------------------PERSONAJES---------------------------------------------------- */
+    .personajesPortada {
+        width: 100%;
+    }
+
+    .descripcionPersonajes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .alignP {
+        text-align: center;
+    }
+
+
+    .bioMichael {
+        background-image: url(./Images/michaelbio.jpg);
+        background-repeat: no-repeat;
+        color: white;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 5%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+
+    .bioFranklin {
+        background-image: url(./Images/franklinbio.jpg);
+        background-repeat: no-repeat;
+        color: white;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 5%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+
+    .bioTrevor {
+        background-image: url(./Images/trevorbio.png);
+        background-repeat: no-repeat;
+        color: white;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 5%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+/* ------------------CONTACTANOS---------------------------------------------------- */
+
+    .gridContacto{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        align-items: center;
+        justify-items: start;
+
+    }
+    .contenidoContacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 15%;
+        margin-top: 15%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .form-label{
+        padding-top: 2%;
+    }
+
+    .tituloBold {
+        font-weight: bold;
+    }
+
+    .buttonEnviar{
+        margin-top: 25px;
+        width: 100px;
+    }
+    .imagenContacto{
+        width: 682px;
+        height: 100%;
+    }
  }
+
 
  @media only screen and (max-width: 992px){
 
@@ -572,7 +747,187 @@ table {
         padding-right: 20px;
         text-align: center;
     }
+    /* ------------------HISTORIA---------------------------------------------------- */
+    .historiaPortada {
+        width: 100%;
+    }
+
+    .gridLosSantos {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+
+    .gridContenido {
+        display: grid;
+        justify-content: space-evenly;
+        align-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .sizeMotero{
+        width: 558px;
+        height: 315px;
+    }
+
+    .sizeSaga{
+        width: 558px;
+        height: 315px;
+    }
+    
+
+    .gridContenido2 {
+        display: grid;
+        justify-content: space-evenly;
+        justify-items: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    table {
+        display: grid;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+
+    /* ------------------PERSONAJES---------------------------------------------------- */
+        .personajesPortada {
+            width: 100%;
+        }
+    
+        .descripcionPersonajes {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 2%;
+            margin-bottom: 2%;
+        }
+    
+        .alignP {
+            text-align: center;
+        }
+    
+    
+        .bioMichael {
+            background-image: url(./Images/michaelbio.jpg);
+            background-repeat: no-repeat;
+            color: white;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 5%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+    
+    
+        .bioFranklin {
+            background-image: url(./Images/franklinbio.jpg);
+            background-repeat: no-repeat;
+            color: white;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 5%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+    
+    
+        .bioTrevor {
+            background-image: url(./Images/trevorbio.png);
+            background-repeat: no-repeat;
+            color: white;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 5%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+/* ------------------CONTACTANOS---------------------------------------------------- */
+
+    .gridContacto{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        align-items: center;
+        justify-items: start;
+
+    }
+    .contenidoContacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 15%;
+        margin-top: 15%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .form-label{
+        padding-top: 2%;
+    }
+
+    .tituloBold {
+        font-weight: bold;
+    }
+
+    .buttonEnviar{
+        margin-top: 25px;
+        width: 100px;
+    }
+    .imagenContacto{
+        width: 583px;
+        height: 100%;
+    }
  }
+
+ @media only screen and (max-width: 850px){
+    
+    .gridContacto{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .contenidoContacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 15%;
+        margin-top: 15%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .form-label{
+        padding-top: 2%;
+    }
+
+    .tituloBold {
+        font-weight: bold;
+    }
+
+    .buttonEnviar{
+        margin-top: 25px;
+        width: 100px;
+    }
+    .imagenContacto{
+        width: 100%;
+        height: 100%;
+    }
+ }
+ 
+ 
+
+
 
  @media only screen and (max-width: 768px){
 
@@ -690,7 +1045,54 @@ table {
     }
 
 
-    /* ---------Personajes------------ */
+    /* ------------------HISTORIA---------------------------------------------------- */
+    .historiaPortada {
+        width: 100%;
+    }
+
+    .gridLosSantos {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+
+    .gridContenido {
+        display: grid;
+        justify-content: space-evenly;
+        align-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+
+    .sizeMotero{
+        width: 431px;
+        height: 269px;
+    }
+
+    .sizeSaga{
+        width: 431px;
+        height: 269px;
+        
+    }
+    
+
+    .gridContenido2 {
+        display: grid;
+        justify-content: space-evenly;
+        justify-items: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    table {
+        display: grid;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+
+
+
+/* ------------------PERSONAJES---------------------------------------------------- */
 
     .personajesPortada {
         background-size: cover;
@@ -713,16 +1115,13 @@ table {
     }
 
 
-    .bioMichael {
-        background-image: none;
-        color: black;
-        height: 780px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding-left: 5%;
+    
+    .sizeVideoPersonajes{
+        width: 580px;
+        height: 326px;
     }
 
+   
     h2{
         font-weight: bold;
     }
@@ -731,33 +1130,31 @@ table {
         color: black;
     }
 
-
-
-
-
-    .bioFranklin {
-        background-image: url(./Images/franklinbio.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        color: white;
-        height: 750px;
+    .bioMichael {
+        background-image: none;
+        color: black;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-left: 5%;
+        padding: 20px 0px 0px 35px
     }
 
-
-    .bioTrevor {
-        background-image: url(./Images/trevorbio.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        color: white;
-        height: 780px;
+    .bioFranklin {
+        background-image: none;
+        color: black;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-left: 5%;
+        padding: 20px 0px 0px 35px
+    }
+
+    .bioTrevor {
+        background-image: none;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 0px 0px 35px
     }
 
 
@@ -908,7 +1305,133 @@ table {
         padding-right: 20px;
         text-align: center;
     }
+
+    /* ------------------HISTORIA---------------------------------------------------- */
+    .historiaPortada {
+        width: 100%;
+    }
+
+    .gridLosSantos {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+
+    .gridContenido {
+        display: grid;
+        justify-content: space-evenly;
+        align-content: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 20px;
+    }
+
+    .sizeMotero{
+        width: 100%;
+        height: 100%;
+    }
+
+    .sizeSaga{
+        width: 100%;
+        height: 100%;
+        
+    }
+
+
+    .gridContenido2 {
+        display: grid;
+        justify-content: space-evenly;
+        justify-items: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    table {
+        display: grid;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+
+
+    /* ------------------PERSONAJES---------------------------------------------------- */
+
+    .personajesPortada {
+        background-size: cover;
+        width: 100%;
+    }
+
+    .descripcionPersonajes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .alignP {
+        text-align: center;
+    }
+
+
+
+    .sizeVideoPersonajes{
+        width: 560px;
+        height: 315px;
+    }
+
+
+    h2{
+        font-weight: bold;
+    }
+
+    .colorMichaeltext{
+        color: black;
+    }
+
+    .bioMichael {
+        background-image: none;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 20px 0px 35px
+    }
+
+    .bioFranklin {
+        background-image: none;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 20px 0px 35px
+    }
+
+    .bioTrevor {
+        background-image: none;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px px 0px 35px
+    }
+
+
+
+
+
  }
+
+ @media only screen and (max-width: 595px){
+    .sizeVideoPersonajes{
+    width: 100%;
+    height: 315px;
+    }
+}
+
+
 
  @media only screen and (max-width: 545px){
 
@@ -1000,8 +1523,8 @@ table {
     }
 
     .sizeVideo{
-        width: 560px;
-        height: 315; 
+        width: 100%;
+        height: 315px; 
     }
 
     /*----Adquierelo index----*/
@@ -1029,6 +1552,58 @@ table {
         padding-right: 20px;
         text-align: center;
     }
+
+    /* ------------------HISTORIA---------------------------------------------------- */
+    .historiaPortada {
+        width: 100%;
+    }
+
+    .gridLosSantos {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+
+    .gridContenido {
+        display: grid;
+        justify-content: space-evenly;
+        align-content: center;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 20px;
+    }
+
+    .sizeMotero{
+        width: 100%;
+        height: 100%;
+    }
+
+    .sizeSaga{
+        width: 100%;
+        height: 100%;
+        
+    }
+
+
+    .gridContenido2 {
+        display: grid;
+        justify-content: space-evenly;
+        justify-items: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    table {
+        display: grid;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+
+
+
+
+
  }
 
  @media only screen and (max-width: 470px){
@@ -1040,7 +1615,7 @@ table {
         background-image: none;
         width: 100%;
         height: 100%;
-        padding: 0px 50px 0px 25px;
+        padding: 0px 50px 20px 25px;
     }    
 
     .losSantos {
@@ -1124,8 +1699,8 @@ table {
     }
 
     .sizeVideo{
-        width: 560px;
-        height: 315; 
+        width: 100%;
+        height: 315px; 
     }
 
     /*----Adquierelo index----*/
@@ -1154,8 +1729,26 @@ table {
         text-align: center;
     }
 
+/* ------------------COMPRAR---------------------------------------------------- */
 
+    .comprar {
+        background-image: none;
+        color: black;
+        padding: 30px 20px 0 20px;
+    }
 
+    .juega {
+        color: black;
+        padding-bottom: 20px;
+    }
+
+    .buttonComprar{
+        margin-bottom: 20px;
+    }
+
+    .textoJuega {
+        padding-bottom: 20px;
+    }
 
 
 
