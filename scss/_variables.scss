@@ -1,0 +1,55 @@
+/* Maps*/
+$colorNaranja: #FFAB00;
+$colorNegro: rgb(0,0,0);
+$colorBlanco: rgb(255,255,255);
+
+/* Aplicación aritmética*/
+.box{
+    height: 100px *2;
+    width: 100px+500;
+}
+
+/* EXTEND*/
+.divBox{
+    height: 100px;
+    width: 200px;
+    background-color: $colorNaranja;
+    border-radius: 5px;
+    border-color: $colorNegro;
+}
+
+.divBox2{
+    background-color: $colorNegro;
+    @extend .divBox
+}
+
+// Mixin
+/* Mixin sin parametros */
+@mixin flex-row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.divFlex{
+    @include flex-row-center;
+}
+
+.divFlex2{
+    @include flex-row-center()
+}
+
+/* Mixin con parametros */
+@mixin card($alto, $ancho) {
+    height: $alto;
+    width: $ancho;
+}
+
+.card1{
+    @include card(500px, 200px);
+}
+
+.card2{
+    @include card(800px, 400px);
+}
+
