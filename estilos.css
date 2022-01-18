@@ -224,6 +224,7 @@ footer {
     padding-bottom: 50px;
     padding-top: 50px;
     height: 190px;
+    width: 100%;
 }
 
 .iconos {
@@ -256,6 +257,7 @@ footer {
 
 .alignP {
     text-align: center;
+    width: 50%;
 }
 
 
@@ -265,12 +267,16 @@ footer {
     background-size: cover;
     color: white;
     height: 780px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 5%;
 }
 
+.textPersonaje{
+    width: 40%;
+}
 
 .bioFranklin {
     background-image: url(./Images/franklinbio.jpg);
@@ -295,6 +301,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     padding-left: 5%;
+    width: 100vw;
 }
 
 /* BIOGRAFIA PERSONAJES*/
@@ -371,6 +378,7 @@ table {
 
 .textoJuega {
     padding-bottom: 20px;
+    width: 40%;
 }
 
 /*--------Comprar--------*/
@@ -578,6 +586,7 @@ table {
 
     .alignP {
         text-align: center;
+        width: 65%;
     }
 
 
@@ -624,6 +633,33 @@ table {
         padding-top: 50px;
         padding-bottom: 50px;
     }
+
+    .textPersonaje{
+        width: 50%;
+    }
+
+/*--------Comprar--------*/
+    .comprar {
+        background-image: url(./Images/comprarfoto.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 680px;
+        color: white;
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+
+    .juega {
+        color: white;
+        padding-bottom: 20px;
+    }
+
+    .textoJuega {
+        padding-bottom: 20px;
+        width: 45%;
+    }
+
+/*--------Comprar--------*/
 
 /* ------------------CONTACTANOS---------------------------------------------------- */
 
@@ -860,6 +896,10 @@ table {
             padding-left: 5%;
             padding-top: 50px;
             padding-bottom: 50px;
+    }
+
+    .textPersonaje{
+        width: 60%;
     }
 
 /* ------------------CONTACTANOS---------------------------------------------------- */
@@ -1123,7 +1163,7 @@ table {
 
     
     .sizeVideoPersonajes{
-        width: 580px;
+        width: 95%;
         height: 326px;
     }
 
@@ -1142,7 +1182,6 @@ table {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 20px 0px 0px 35px
     }
 
     .bioFranklin {
@@ -1151,7 +1190,6 @@ table {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 20px 0px 0px 35px
     }
 
     .bioTrevor {
@@ -1160,8 +1198,37 @@ table {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 20px 0px 0px 35px
+        
     }
+
+    .textPersonaje{
+        width: 95%;
+    }
+
+/*--------Comprar--------*/
+    .comprar {
+        background-image: url(./Images/comprarfoto.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 680px;
+        color: white;
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+
+    .juega {
+        color: white;
+        padding-bottom: 20px;
+    }
+
+    .textoJuega {
+        padding-bottom: 20px;
+        width: 50%;
+    }
+
+/*--------Comprar--------*/
+
+
  }
 
 
@@ -1346,6 +1413,11 @@ table {
 
     .alignP {
         text-align: center;
+        width: 80%;
+    }
+
+    .textPersonaje{
+        width: 90%;
     }
 
 
@@ -1370,7 +1442,7 @@ table {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 20px 20px 0px 35px
+        padding-right: 5%;
     }
 
     .bioFranklin {
@@ -1379,7 +1451,7 @@ table {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 20px 20px 0px 35px
+        padding-right: 5%;
     }
 
     .bioTrevor {
@@ -1388,9 +1460,32 @@ table {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 20px px 0px 35px
+        padding-right: 5%;
     }
- }
+
+/*--------Comprar--------*/
+    .comprar {
+        background-image: url(./Images/comprarfoto.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 680px;
+        color: white;
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+
+    .juega {
+        color: white;
+        padding-bottom: 20px;
+    }
+
+    .textoJuega {
+        padding-bottom: 20px;
+        width: 80%;
+    }
+/*--------Comprar--------*/
+
+}
 
  @media only screen and (max-width: 595px){
     .sizeVideoPersonajes{
@@ -1711,6 +1806,7 @@ table {
 
     .textoJuega {
         padding-bottom: 20px;
+        width: 90%;
     }
 
     /* ----------HISTORIA------------------------------- */
@@ -1732,6 +1828,89 @@ table {
         margin-bottom: 10px;
         padding-right: 10px;
     }
+
+
+
+/* ------------------PERSONAJES---------------------------------------------------- */
+
+.personajesPortada {
+    background-size: cover;
+    width: 100%;
+}
+
+.descripcionPersonajes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.alignP {
+    text-align: center;
+    width: 80%;
+}
+
+.textPersonaje{
+    width: 100%;
+}
+
+
+
+.sizeVideoPersonajes{
+    width: 100%;
+    height: 315px;
+}
+
+
+h2{
+    font-weight: bold;
+}
+
+.colorMichaeltext{
+    color: black;
+}
+
+.bioMichael {
+    background-image: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 20px 0px 35px
+}
+
+.bioFranklin {
+    background-image: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 20px 0px 35px
+}
+
+.bioTrevor {
+    background-image: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 20px 0px 35px;
+    
+}
+
+
+
+
+
+
+
+
+
+
 
  }
 
