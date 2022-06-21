@@ -22,6 +22,7 @@
   <!-- ESTILO CSS -->
   <link rel="stylesheet" href="../estilos.css">
   <link rel="shortcut icon" href="../Images/iconoV.png">
+
     <title>GTA V - Tienda</title>
 </head>
 <body>
@@ -56,7 +57,7 @@
 
               <ul>
                 <li>
-                  <a href="#" class="submenu"><img src="../Images/carrito.png" alt="carrito"></a>
+                  <a href="#" class="carritoIcon"><img src="../Images/carrito.png" alt="carrito"></a>
                 </li>
               </ul>
             </div>
@@ -64,19 +65,23 @@
 
       
       </header>
-
-    <div class="ventana">
-      <p class="tituloPedidos"> Tus Pedidos </p> 
+    <div class="carrito">
+      <div class="ventana">
+        <p class="tituloPedidos"> Tus Pedidos </p>
+        <div class="semitituloPedidos">
+            <p>HEY!! no te vayas sin los fascinantes productos de GTA V. Vamos!, llénalo en tu carrito.</p>
+        </div>
+      </div>
+      <button class="btnPagar">Pagar</button>
     </div>
-
-
 
 
     <div class="bannerTienda">
       <h1 class="tiendaTitle">Adquiere material exclusivo de Rockstar Games</h1>
       <p class="textoBanner">Disfruta de merchandising exclusivo de Grand Theft Auto V y Rockstar. </p>
+      
     </div>
-
+      
 
  <!-- TODOS LOS PRODUCTOS -->
 
@@ -177,7 +182,7 @@
               <p class="precio"> Precio: s/. 80</p>
             </div>
             <div class="cardComprar">
-              <button class="btnAgregar">Comprar</button>
+              <button class="btnAgregar">Agregar al carrito</button>
             </div>
           </div>
 
@@ -194,7 +199,7 @@
               <p class="precio"> Precio: s/. 120</p>
             </div>
             <div class="cardComprar">
-              <button>Comprar</button>
+              <button class="btnAgregar">Agregar al carrito</button>
             </div>
           </div>
 
@@ -210,7 +215,7 @@
               <p class="precio"> Precio: s/. 80</p>
             </div>
             <div class="cardComprar">
-              <button class="btnAgregar">Comprar</button>
+              <button class="btnAgregar">Agregar al carrito</button>
             </div>
           </div>
 
@@ -226,20 +231,11 @@
               <p class="precio"> Precio: s/. 80</p>
             </div>
             <div class="cardComprar">
-              <button class="btnAgregar">Comprar</button>
+              <button class="btnAgregar">Agregar al carrito</button>
             </div>
           </div>
     </div>
       
-
-    
-      
-
-
-
-
-
-
 
 
 
@@ -260,9 +256,13 @@
   </footer>
 
 
+  
 
     
     <!-- JAVASCRIPT -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js'></script>
+    <script src='https://unpkg.com/vue-the-mask@0.11.1/dist/vue-the-mask.js'></script>
+    <script  src="../js/pago.js"></script>
     <script src="../js/tienda.js"></script>
 
 </body>

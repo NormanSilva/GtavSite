@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+*:focus {
+    outline: none;
+  }
 /* BODY */
 body {
     font-family: "Roboto", sans-serif;
@@ -527,12 +529,12 @@ table {
    
      /*--------CARRITO DE COMPRA--------*/
 
-/* .submenu{
-    display: none;
+/* .carritoIcon{
+    display: absolute;
 } */
 
 
-.ventana{
+/* .ventana{
     width: 350px;
     min-height: 150px;
     background: #FFFFFF;
@@ -542,7 +544,40 @@ table {
     left: 80%;
     top: 10%;
     display: none;
+    flex-direction: column;
+    align-items: center;
     
+} */
+
+
+
+.carrito{
+    width: 415px;
+    min-height: 150px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px 4px rgba(163, 158, 158, 0.25);
+    border-radius: 20px;
+    position: absolute;
+    left: 80%;
+    top: 10%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.contenedor-carrito{
+    display: flex;
+    flex-direction: column;
+    width: 98%; 
+}
+
+.btnPagar{
+    display: none;
+}
+
+a{
+    color: #000000;
 }
 
 .tituloPedidos{
@@ -555,20 +590,78 @@ table {
     margin-top: 15px;
 }
 
+.semitituloPedidos{
+    display: inline-flex;
+    color: #000000;
+    font-weight: 700;
+    margin-right: 10%;
+    margin-left: 10%;
+    align-content: center;
+    text-align: center;
+}
+
+.semiProducto{
+
+    margin-right: 30px;
+}
+
+.semiPrecio{
+margin-right: 20px;
+}
 
 
 
+.productoElegido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productoElegido div p{
+    margin-bottom: 0%;
+}
+
+.nameCarrito{
+    width: 45%;
+    margin-left: 15%;
+    margin-right: 11%;
+    align-items: center;
+    /* flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1%;
+    margin-right: 25px; */
+}
+
+.precioCarrito{
+    display: inline-block;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.cantidad{
+    display: inline-block;
+    align-items: center;
+    margin-right: 20px;
+}
 
 
+hr{
+    /* align-items: center; */
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
-
-
-
-
+.btnComprar{
+    margin-bottom: 5%;
+}
 
 
 
 /*--------Tienda--------*/
+
+
+
 
 
 
