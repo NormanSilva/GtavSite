@@ -86,7 +86,7 @@ new Vue({
   }
 });
 
-
+// Linea con cambios
 /*SWEET ALERT*/
 
 const botonFinalizarPago = document.querySelector("[finalizarPago]");
