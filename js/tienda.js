@@ -29,23 +29,7 @@ const carritoIcon = document.querySelector(".carritoIcon");
 let carritoclickeado = false;
 carritoIcon.addEventListener("click", () => {
     switch (carritoclickeado) {
-        case false:
-            // carrito = JSON.parse(sessionStorage.getItem("carrito"));
-
-            // carrito.forEach(element => {
-            //     lista.innerHTML += `
-            //     <div class="productoElegido">
-            //          <div>
-            //             <p class="nameCarrito"> ${element.nombre} </p>
-            //          </div>
-            //          <div>
-            //             <p class="precioCarrito"> s/.${element.precio} </p>
-            //          </div>
-            //          <div>
-            //             <p class="cantidad"> cantidad: ${element.cantidad} </p>
-            //     </div>`;
-            // })
-            
+        case false:            
             lista.style.display = "flex";
             carritoclickeado = true;
             break;
@@ -70,15 +54,19 @@ function añadirAlCarrito(parametro) {
                 prdt.cantidad++;
                 carrito.push(prdt);
             }        
-        } 
+} 
 
+function calcularPrecioFinal (){
+    precioFinal = 0;
+    carrito.forEach(element=>{
+        precioFinal += element.precio * element.cantidad;
+    })
+}
 //Seleccionando productos al carrito de compra
-const agregar = document.getElementsByClassName("btnAgregar"); 
-console.log(agregar)
+const agregar = document.getElementsByClassName("btnAgregar");
 
 let btnPagar = true;
-let precioFinal;
-let carritoRed;
+let precioFinal = 0;
 
  for(let i=0; i<almacen.length; i++){
      agregar[i].addEventListener("click", ()=>{
@@ -93,7 +81,6 @@ let carritoRed;
                 const carritoContenedor = document.querySelector(".contenedor-carrito");
 
             carrito.forEach(element => {
-                
                 //Y esto agrega cada producto del carrito a continuación y sin pisar el título.
                 carritoContenedor.innerHTML += `
                 <div class="productoElegido">
@@ -106,14 +93,18 @@ let carritoRed;
                         <div class="precioCarrito">
                             <p> s/.${element.precio * element.cantidad}  </p>
                         </div>
+                        <div>
+                            <button id="delete-${element.id}" class="icon-delete"><span class="material-symbols-outlined borrar-icon">delete</span></button>
+                        </div>
                 </div>
                 <hr>`;
             });
+            
+            
 
-            carritoRed = [...carrito];
-
-            (carrito.length <= 1) ? precioFinal = carrito[0].precio * carrito[0].cantidad : precioFinal = carritoRed.reduce((a,b) => (a.precio * a.cantidad) + (b.precio * b.cantidad));
-
+            
+            
+            calcularPrecioFinal();
             lista.innerHTML += `
             <div class="carrito-total-a-pagar">
                 <h4>Total a Pagar: ${precioFinal}</h4>
@@ -122,22 +113,12 @@ let carritoRed;
 
 
        sessionStorage.setItem(`carrito`, JSON.stringify(carrito));
-     }) 
+     });
  };
 
-/*class="comprar-carrito"*/ //clase del button
-//  const btnComprar = docuemnt.querySelector(".comprar-carrito");
-//  const divTarjeta = document.querySelector(".tarjeta");
-//  const divAllCards = document.querySelector(".allCards");
+ const deleteIcon = document.getElementsByClassName("icon-delete");
 
-//  btnComprar.addEventListener("click", () =>{
-//     console.log("cambiar displays");
-//     divTarjeta.style.display = "flex";
-//     divAllCards.style.display = "none";
-//  });
-
-//  const btnFinalizarCompra = docuemnt.querySelector(".btn-finalizar-compra");
-
-//  btnFinalizarCompra.addEventListener("click", ()=>{
-
-//  });
+ deleteIcon.forEach(button=>{
+    button
+ })
+            
