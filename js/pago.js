@@ -86,6 +86,8 @@ new Vue({
   }
 });
 
+
+
 // Linea con cambios
 /*SWEET ALERT*/
 

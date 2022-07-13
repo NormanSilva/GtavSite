@@ -1,4 +1,4 @@
-{"productos":[
+[
     {"id":1, "name": "T-shirt Rockstar Negro","price": 50, "cantidad": 0},
     {"id":2, "name": "T-shirt Rockstar Gris", "price": 50, "cantidad": 0},
     {"id":3, "name": "T-shirt Rockstar Rojo","price":50, "cantidad": 0},
@@ -9,4 +9,4 @@
     {"id":8, "name": "Mechero Zippo RDR2","price": 80, "cantidad": 0},
     {"id":9, "name": "Tomatodo Sprunk","price": 80, "cantidad": 0}
 ]
-}
+
